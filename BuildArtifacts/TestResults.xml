@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="G:\GitCode\HelloCI\BuildArtifacts\HelloCI.Web.UnitTests.dll" total="2" errors="0" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2017-12-06" time="15:22:53">
+  <environment nunit-version="2.6.0.12051" clr-version="2.0.50727.8794" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="G:\GitCode\HelloCI" machine-name="LICHAOR" user="lichaor" user-domain="PDOMAIN" />
+  <culture-info current-culture="zh-CN" current-uiculture="zh-CN" />
+  <test-suite type="Assembly" name="G:\GitCode\HelloCI\BuildArtifacts\HelloCI.Web.UnitTests.dll" executed="True" result="Success" success="True" time="0.949" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="HelloCI" executed="True" result="Success" success="True" time="0.941" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Web" executed="True" result="Success" success="True" time="0.940" asserts="0">
+            <results>
+              <test-suite type="Namespace" name="UnitTests" executed="True" result="Success" success="True" time="0.940" asserts="0">
+                <results>
+                  <test-suite type="Namespace" name="ControllerTests" executed="True" result="Success" success="True" time="0.940" asserts="0">
+                    <results>
+                      <test-suite type="TestFixture" name="HomeControllerTests" executed="True" result="Success" success="True" time="0.939" asserts="0">
+                        <results>
+                          <test-case name="HelloCI.Web.UnitTests.ControllerTests.HomeControllerTests.AboutActionReturnsView" executed="True" result="Success" success="True" time="0.694" asserts="1" />
+                          <test-case name="HelloCI.Web.UnitTests.ControllerTests.HomeControllerTests.IndexActionReturnsView" executed="True" result="Success" success="True" time="0.230" asserts="2" />
+                        </results>
+                      </test-suite>
+                    </results>
+                  </test-suite>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>
